@@ -54,6 +54,7 @@ public class IndexManager {
         for (Document document : documents) {
             //把文档对象写入索引库
             indexWriter.addDocument(document);
+            System.out.println("");
             //提交事务
             indexWriter.commit();
         }
