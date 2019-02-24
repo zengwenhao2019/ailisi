@@ -59,7 +59,6 @@ public class IndexManager {
         }
         //释放资源
         indexWriter.close();
-        System.out.println("");
     }
 
     @Test
